@@ -1,37 +1,43 @@
 {
   "generator-jhipster": {
-    "promptValues": {
-      "packageName": "com.rothandrew.familygiftlist.gateway",
-      "nativeLanguage": "en"
-    },
-    "jhipsterVersion": "5.8.2",
     "applicationType": "gateway",
-    "baseName": "familygiftlistgateway",
-    "packageName": "com.rothandrew.familygiftlist.gateway",
-    "packageFolder": "com/rothandrew/familygiftlist/gateway",
-    "serverPort": "8080",
     "authenticationType": "oauth2",
+    "baseName": "familygiftlistgateway",
+    "buildTool": "gradle",
     "cacheProvider": "hazelcast",
-    "enableHibernateCache": true,
-    "websocket": "spring-websocket",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
     "databaseType": "sql",
     "devDatabaseType": "h2Disk",
-    "prodDatabaseType": "mysql",
-    "searchEngine": "elasticsearch",
-    "messageBroker": "kafka",
-    "serviceDiscoveryType": "eureka",
-    "buildTool": "gradle",
-    "enableSwaggerCodegen": true,
-    "clientFramework": "react",
-    "useSass": true,
-    "clientPackageManager": "npm",
-    "testFrameworks": ["gatling", "cucumber", "protractor"],
-    "jhiPrefix": "jhi",
-    "entitySuffix": "",
     "dtoSuffix": "DTO",
-    "otherModules": [],
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": true,
     "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "languages": [
+      "en"
+    ],
+    "messageBroker": "kafka",
     "nativeLanguage": "en",
-    "languages": ["en"]
+    "otherModules": [],
+    "packageFolder": "com/rothandrew/familygiftlist/gateway",
+    "packageName": "com.rothandrew.familygiftlist.gateway",
+    "prodDatabaseType": "mysql",
+    "promptValues": {
+      "nativeLanguage": "en",
+      "packageName": "com.rothandrew.familygiftlist.gateway"
+    },
+    "searchEngine": "elasticsearch",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "useSass": true,
+    "websocket": "spring-websocket"
   }
 }
